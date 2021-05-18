@@ -39,7 +39,7 @@ mimic.forgram文件：(node to index, newfather, cormat and pre-trained embeddin
 
 #### model介绍
 
-'''
+**以下实验结果中未显示**
 Model && train1.py
 
 ModelTreeInit && train1.py
@@ -54,15 +54,16 @@ ModelTree && train2.py
 ModelTree1 && train3.py
     添加了ICD tree
     只更新相关的leaf or ancestor，而非先全部更新，再局部更新，使用graph attention更新
-'''
 
-ModelTree2 && train5.py
+**以下是跑完实验的**
+**ModelTree2 && train5.py**
     使用GCN: AXW更新leaf code和ancestor
     static embedding从model中拿到了train中
         
-ModelTree2_1 && train5.py
+**ModelTree2_1 && train5.py**
     GCN_1: AXW => alpha * AX^{k}W + (1-alpha) X^{0}
 
+**以下是未跑实验的**
 ModelTree3 && train6.py
     GCN_1: AXW => alpha * AX^{k}W + (1-alpha) X^{0}
     code update: 𝐶(𝑡'')=GCN(𝐶(𝑡𝑘-))
