@@ -63,6 +63,7 @@ ModelTree1 && train3.py
 **ModelTree2_1 && train5.py**
     GCN_1: AXW => alpha * AX^{k}W + (1-alpha) X^{0}
 
+
 **以下是未跑实验的**
 ModelTree3 && train6.py
     GCN_1: AXW => alpha * AX^{k}W + (1-alpha) X^{0}
